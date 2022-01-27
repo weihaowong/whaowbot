@@ -1,6 +1,8 @@
 import os
 import telebot
 from telebot import types
+$heroku buildpacks:set heroku/php
+$heroku create whaowbot --buildpack heroku/python
 
 bot = telebot.TeleBot("5265129190:AAGZwDaoagX3VW_RzeS0YP_IALKt0_sqPXA",parse_mode=None)
 
